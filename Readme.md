@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Анастасия Степанова](https://up.htmlacademy.ru/htmlcss/24/user/250173).
-* Наставник: [Андрей Захарченко] (https://htmlacademy.ru/profile/drewtsure).
+* Наставник: [Андрей Захарченко](https://htmlacademy.ru/profile/drewtsure).
 
 ---
 
