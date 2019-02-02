@@ -25,7 +25,27 @@
   <main class="container">
     <aside class="filters">
       <h2 class="visually-hidden">Фильтры товаров</h2>
-      <!--Здесь будет форма-->
+      <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>cетка:</legend>
+          <ul>
+            <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="adaptive" id="filter-adaptive" checked><label for="filter-adaptive">Адаптивная</label></li>
+            <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="fixed" id="filter-fixed"><label for="filter-fixed">Фиксированная</label></li>
+            <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="fluid" id="filter-fluid"><label for="filter-fluid">Резиновая</label></li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>особенности:</legend>
+          <ul>
+            <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked><label for="filter-slider">Слайдер</label></li>
+            <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantages" id="filter-advantages"><label for="filter-advantages">Блок преимуществ</label></li>
+            <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked><label for="filter-news">Новости</label></li>
+            <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery"><label for="filter-gallery">Галерея</label></li>
+            <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="cart" id="filter-cart"><label for="filter-cart">Корзина</label></li>
+          </ul>
+        </fieldset>
+        <button type="submit" class="filter-button button">Показать</button>
+      </form>
     </aside>
     <section class="catalog">
       <h2 class="visually-hidden">Список товаров</h2>
@@ -87,6 +107,32 @@
       </ul>
     </section>
   </main>
+  <section class="contacts">
+    <h2 class="visually-hidden">Контакты</h2>
+    <p class="name">NЁRDS DESIGN STUDIO</p>
+    <p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
+    <p>тел. +7(812)275-75-75</p>
+    <a class="contacts-button" href="#">Напишите нам</a>
+  </section>
+  <section class="contact-us">
+    <h2>Напишите нам</h2>
+    <form class="contact-us-form" method="post" action="https://echo.htmlacademy.ru">
+      <p class="contact-us-item">
+        <label for="contact-us-name">Ваше имя:</label>
+        <input id="contact-us-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+      </p>
+      <p class="contact-us-item">
+        <label for="contact-us-mail">Ваш e-mail:</label>
+        <input id="contact-us-mail" type="text" name="e-mail" value="" placeholder="example@example.com">
+      </p>
+      <p class="contact-us-item">
+        <label for="contact-us-text">Текст письма:</label>
+        <input id="contact-us-text" type="text" name="text" value="" placeholder="В свободной форме">
+      </p>
+      <button class="button" type="submit">Отправить</button>
+
+    </form>
+  </section>
   <footer class="main-footer">
     <div class="footer-social">
       <ul>

@@ -37,9 +37,9 @@
         <a class="slider-button" href="#">Узнать больше</a>
       </div>
       <ul class="slider-switches">
-        <li><a class="slide-switch-current" href="#"></a><span class="visually-hidden">Слайд 1</span></li>
-        <li><a class="slide-switch" href="#"></a><span class="visually-hidden">Слайд 2</span></li>
-        <li><a class="slide-switch" href="#"></a><span class="visually-hidden">Слайд 3</span></li>
+        <li><a class="slide-switch-current" href="#"><span class="visually-hidden">Слайд 1</span></a></li>
+        <li><a class="slide-switch" href="#"><span class="visually-hidden">Слайд 2</span></a></li>
+        <li><a class="slide-switch" href="#"><span class="visually-hidden">Слайд 3</span></a></li>
 
       </ul>
     </section>
@@ -70,8 +70,7 @@
     <section class="description">
       <div class="description-about">
         <b id="description-caption">Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
-        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчёт превыше креатива.Работаем не
-          покладая рук, как роботы.</p>
+        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчёт превыше креатива.Работаем не покладая рук, как роботы.</p>
         <b id="description-list">выполняем заказы на разработку:</b>
         <ul class="description-items">
           <li class="description-item">Веб-сайтов любой сложности</li>
@@ -100,23 +99,40 @@
     <section class="clients">
       <h2 class="visually-hiiden">Клиенты</h2>
       <ul class="clients-list">
-        <li class="clients-item clients-item-academy"><a href="#"><img src="/img/logo-1.png" height="68" width="199"
-              alt="логотип html academy"></a></li>
-        <li class="clients-item clients-item-barbershop"><a href="#"><img src="/img/logo-2.png" height="90" width="209"
-              alt="логотип барбершопа бородинский"></a></li>
+        <li class="clients-item clients-item-academy"><a href="#"><img src="/img/logo-1.png" height="68" width="199" alt="логотип html academy"></a></li>
+        <li class="clients-item clients-item-barbershop"><a href="#"><img src="/img/logo-2.png" height="90" width="209" alt="логотип барбершопа бородинский"></a></li>
         <li class="clients-item clients-item-pink"><a href="#"><img src="/img/logo-3.png" height="52" width="185" alt="логотип приложения пинк"></a></li>
         <li class="clients-item clients-item-mishka"><a href="#"><img src="/img/logo-4.png" height="84" width="173" alt="логотип приложения пинк"></a></li>
       </ul>
 
     </section>
-    <section class="contacts">
-      <h2 class="visually-hidden">Контакты</h2>
-      <p class="name">NЁRDS DESIGN STUDIO</p>
-      <p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
-      <p>тел. +7(812)275-75-75</p>
-      <a class="contacts-button" href="#">Напишите нам</a>
-    </section>
   </main>
+  <section class="contacts">
+    <h2 class="visually-hidden">Контакты</h2>
+    <p class="name">NЁRDS DESIGN STUDIO</p>
+    <p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
+    <p>тел. +7(812)275-75-75</p>
+    <a class="contacts-button" href="#">Напишите нам</a>
+  </section>
+  <section class="contact-us">
+    <h2>Напишите нам</h2>
+    <form class="contact-us-form" method="post" action="https://echo.htmlacademy.ru">
+      <p class="contact-us-item">
+        <label for="contact-us-name">Ваше имя:</label>
+        <input id="contact-us-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+      </p>
+      <p class="contact-us-item">
+        <label for="contact-us-mail">Ваш e-mail:</label>
+        <input id="contact-us-mail" type="text" name="e-mail" value="" placeholder="example@example.com">
+      </p>
+      <p class="contact-us-item">
+        <label for="contact-us-text">Текст письма:</label>
+        <input id="contact-us-text" type="text" name="text" value="" placeholder="В свободной форме">
+      </p>
+      <button class="button" type="submit">Отправить</button>
+
+    </form>
+  </section>
   <footer class="main-footer">
     <div class="footer-social">
       <ul>
@@ -130,6 +146,7 @@
       </p>
     </div>
   </footer>
+
 </body>
 
 </html>
