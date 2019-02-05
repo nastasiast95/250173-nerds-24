@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,22 +27,22 @@
       <div class="slider-1">
         <h3>Долго, дорого, скурпулёзно</h3>
         <p>Математически выверенный дизайн для вашего сайта.</p>
-        <a class="slider-button" href="#">Узнать больше</a>
+        <a class="button" href="#">Узнать больше</a>
       </div>
       <div class="slider-2">
         <h3>Любим математику как никто другой</h3>
         <p>Никакого креатива, только математические формулы для расчёта идеальных пропорций.</p>
-        <a class="slider-button" href="#">Узнать больше</a>
+        <a class="button" href="#">Узнать больше</a>
       </div>
       <div class="slider-3">
         <h3>Только ночь, только хардкор</h3>
         <p>Работать днём как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-        <a class="slider-button" href="#">Узнать больше</a>
+        <a class="button" href="#">Узнать больше</a>
       </div>
       <ul class="slider-switches">
-        <li><a class="slide-switch-current" href="#"><span class="visually-hidden">Слайд 1</span></a></li>
-        <li><a class="slide-switch" href="#"><span class="visually-hidden">Слайд 2</span></a></li>
-        <li><a class="slide-switch" href="#"><span class="visually-hidden">Слайд 3</span></a></li>
+        <li><button class="slide-btn-current"><span class="visually-hidden">Слайд 1</span></button></li>
+        <li><button class="slide-btn"><span class="visually-hidden">Слайд 2</span></button></li>
+        <li><button class="slide-btn"><span class="visually-hidden">Слайд 3</span></button></li>
 
       </ul>
     </section>
@@ -74,7 +77,7 @@
         <b id="description-list">выполняем заказы на разработку:</b>
         <ul class="description-items">
           <li class="description-item">Веб-сайтов любой сложности</li>
-          <li class="description-item">Мобильныхприложений для iOS и Android</li>
+          <li class="description-item">Мобильных приложений для iOS и Android</li>
           <li class="description-item">Слайдшоу и видео для корпоративных презентаций</li>
         </ul>
       </div>
@@ -90,7 +93,7 @@
           </tr>
           <tr class="pricniples-description">
             <td>Уровень самоотдачи</td>
-            <td>Союлюдение сроков</td>
+            <td>Соблюдение сроков</td>
             <td>Минимальная предоплата</td>
           </tr>
         </table>
@@ -110,9 +113,9 @@
   <section class="contacts">
     <h2 class="visually-hidden">Контакты</h2>
     <p class="name">NЁRDS DESIGN STUDIO</p>
-    <p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
-    <p>тел. +7(812)275-75-75</p>
-    <a class="contacts-button" href="#">Напишите нам</a>
+    <p class="adress">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
+    <p class="adress">тел. +7(812)275-75-75</p>
+    <a class="button" href="#">Напишите нам</a>
   </section>
   <section class="contact-us">
     <h2>Напишите нам</h2>
@@ -142,7 +145,7 @@
       </ul>
       <p class="footer-discount">
         <b>Давайте дружить, это выгодно!</b><br>
-        Скидка 10% для друзей из социальных сетей.
+        <span>Скидка 10% для друзей из социальных сетей.</span>
       </p>
     </div>
   </footer>

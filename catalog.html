@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
 </head>
 
 <body>
@@ -29,19 +31,43 @@
         <fieldset>
           <legend>cетка:</legend>
           <ul>
-            <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="adaptive" id="filter-adaptive" checked><label for="filter-adaptive">Адаптивная</label></li>
-            <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="fixed" id="filter-fixed"><label for="filter-fixed">Фиксированная</label></li>
-            <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid-type" value="fluid" id="filter-fluid"><label for="filter-fluid">Резиновая</label></li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input-radio" type="radio" name="grid-type" value="adaptive" id="filter-adaptive" checked>
+              <label for="filter-adaptive">Адаптивная</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input-radio" type="radio" name="grid-type" value="fixed" id="filter-fixed">
+              <label for="filter-fixed">Фиксированная</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input-radio" type="radio" name="grid-type" value="fluid" id="filter-fluid">
+              <label for="filter-fluid">Резиновая</label>
+            </li>
           </ul>
         </fieldset>
         <fieldset>
           <legend>особенности:</legend>
           <ul>
-            <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked><label for="filter-slider">Слайдер</label></li>
-            <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantages" id="filter-advantages"><label for="filter-advantages">Блок преимуществ</label></li>
-            <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked><label for="filter-news">Новости</label></li>
-            <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery"><label for="filter-gallery">Галерея</label></li>
-            <li class="filter-option"><input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="cart" id="filter-cart"><label for="filter-cart">Корзина</label></li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
+              <label for="filter-slider">Слайдер</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="advantages" id="filter-advantages">
+              <label for="filter-advantages">Блок преимуществ</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
+              <label for="filter-news">Новости</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery">
+              <label for="filter-gallery">Галерея</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input-checkbox" type="checkbox" name="cart" id="filter-cart">
+              <label for="filter-cart">Корзина</label>
+            </li>
           </ul>
         </fieldset>
         <button type="submit" class="filter-button button">Показать</button>
@@ -51,7 +77,7 @@
       <h2 class="visually-hidden">Список товаров</h2>
       <ul class="catalog-list">
         <li class="catalog-item">
-          <a href="#"><img src="/img/img-sedona.jpg" height="576" width="360" alt="Макет главной страницы туристического сайта Седона с фотографиями достоприечательностей: гор, домов и дороги"></a>
+          <a href="#"><img src="/img/img-sedona.jpg" height="576" width="360" alt="Макет главной страницы туристического сайта Седона с фотографиями достоприечательностей"></a>
           <div class="description-hover">
             <h3>sedona</h3>
             <p>Информационный сайт для туристов.</p>
@@ -59,7 +85,7 @@
           </div>
         </li>
         <li class="catalog-item">
-          <a href="#"><img src="/img/img-pink.jpg" height="576" width="360" alt="Макет главной страницы приложения. На нём чёрно-белая фотография улица и изображение телефона в руке с розовой картинкой на заставке. Ниже изображения трёх телефонов и перечисление функционала приложения"></a>
+          <a href="#"><img src="/img/img-pink.jpg" height="576" width="360" alt="Макет главной страницы приложения c перечислением функционала"></a>
           <div class="description-hover">
             <h3>pink app</h3>
             <p>Продуктовый лендинг приложения для iOS и Android.</p>
@@ -67,7 +93,7 @@
           </div>
         </li>
         <li class="catalog-item">
-          <a href="#"><img src="/img/img-barbershop.jpg" height="576" width="360" alt="Макет сайта барбершопа с чёрно-белой фотографией салона на фоне. На странице перечислены преимущества, новости и акции"></a>
+          <a href="#"><img src="/img/img-barbershop.jpg" height="576" width="360" alt="Макет сайта барбершопа с перечислением преимущества, новостей и акций"></a>
           <div class="description-hover">
             <h3>barbershop</h3>
             <p>Сайт салона красоты. Для мужчин, да.</p>
@@ -75,7 +101,7 @@
           </div>
         </li>
         <li class="catalog-item">
-          <a href="#"><img src="/img/img-mishka.jpg" height="576" width="360" alt="Макет сайта магазина вязаных игрушек. Изображены вязаные игрушки, ниже карточка товара вязаной корзинки и блок коротко о нас"></a>
+          <a href="#"><img src="/img/img-mishka.jpg" height="576" width="360" alt="Макет сайта магазина вязаных игрушек"></a>
           <div class="description-hover">
             <h3>mishka</h3>
             <p>Интернет-магазин вязаных игрушек.</p>
@@ -83,7 +109,7 @@
           </div>
         </li>
         <li class="catalog-item">
-          <a href="#"><img src="/img/img-aplus.jpg" height="576" width="360" alt="Макет сайта курсов повышения квалификации А+. На нём блок с фоновой картинкой с изображением планшета и стационарного телефона, блоки с примуществами, формами обучения и обратной связи"></a>
+          <a href="#"><img src="/img/img-aplus.jpg" height="576" width="360" alt="Макет сайта курсов повышения квалификации А+ с примуществами, формами обучения и обратной связи"></a>
           <div class="description-hover">
             <h3>a plus</h3>
             <p>Лендинг курсов повышения квалификации.</p>
@@ -110,9 +136,9 @@
   <section class="contacts">
     <h2 class="visually-hidden">Контакты</h2>
     <p class="name">NЁRDS DESIGN STUDIO</p>
-    <p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
+    <p class="adress">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
     <p>тел. +7(812)275-75-75</p>
-    <a class="contacts-button" href="#">Напишите нам</a>
+    <a class="button" href="#">Напишите нам</a>
   </section>
   <section class="contact-us">
     <h2>Напишите нам</h2>

@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #fb565a;
+  border: none;
+  font-size: 16px;
+  line-height: 18px;
+
+}
+
+.button:hover,
+.button:focus {
+  background-color: #e74246;
+}
+
+.main-header {
+  padding-top: 50px;
+  background-color: #eeeeee;
+}
+
+.main-navigation {
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #fb565a;
+}
+
+.slider h3 {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 700;
+}
+
+.services-list {
+  list-style: none;
+}
+
+.services-list h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+
+.description-items {
+  list-style: none;
+}
+
+#description-caption {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 700;
+  }
+  
+#description-list {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+.pricniples-table caption {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.principles-percentage td {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.pricniples-description td {
+  line-height: 18px;
+}
+
+.clients {
+  border-top: 2px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.name {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.adress {
+  line-height: 18px;
+  color: #666666;
+}
+
+
+
+.footer-discount b {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.footer-discount span {
+  line-height: 22px;
+  color: #5d5d5d;
+}
+
+.contact-us {
+  background-color: #ffffff;
+}
+
+.contact-us h2 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.contact-us-item label {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.contact-us-item input {
+  font: inherit;
+  border: 2px solid #d7dcde;
+  font-size: 16px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.contact-us-item input:focus {
+  border-color: #000000;
+}
+
+.contact-us-item input:hover {
+  border: 2px solid #b4b9bb;
+}
+
+.contact-us-item input:invalid {
+  color: #e74246;
+}
