@@ -6,9 +6,10 @@
   <title>HTML Academy: Нёрдс</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="inner-page">
   <header class="main-header">
     <nav class="main-navigation">
       <a class="main-header-logo" href="index.html">
@@ -36,7 +37,7 @@
               <label for="filter-adaptive">Адаптивная</label>
             </li>
             <li class="filter-option">
-              <input class="visually-hidden filter-input-radio" type="radio" name="grid-type" value="fixed" id="filter-fixed">
+              <input class="visually-hidden filter-input-radio" type="radio" name="grid-type" value="fixed" id="filter-fixed" >
               <label for="filter-fixed">Фиксированная</label>
             </li>
             <li class="filter-option">
@@ -70,7 +71,7 @@
             </li>
           </ul>
         </fieldset>
-        <button type="submit" class="filter-button button">Показать</button>
+        <button type="submit" class="filter-button">Показать</button>
       </form>
     </aside>
     <section class="catalog">
@@ -168,7 +169,7 @@
       </ul>
       <p class="footer-discount">
         <b>Давайте дружить, это выгодно!</b><br>
-        Скидка 10% для друзей из социальных сетей.
+        <span>Скидка 10% для друзей из социальных сетей.</span>
       </p>
     </div>
   </footer>

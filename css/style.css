@@ -14,6 +14,9 @@ a {
   text-decoration: none;
 }
 
+
+/*Кнопки*/
+
 .button {
   font: inherit;
 
@@ -34,9 +37,17 @@ a {
   background-color: #e74246;
 }
 
+/*Header*/
+
 .main-header {
   padding-top: 50px;
   background-color: #eeeeee;
+}
+
+.main-header h1 {
+  font-size: 55px;
+  line-height: 66px;
+  color: #000000;
 }
 
 .main-navigation {
@@ -58,12 +69,14 @@ a {
   color: #fb565a;
 }
 
+/*Slider*/
 .slider h3 {
   font-size: 55px;
   line-height: 66px;
   font-weight: 700;
 }
 
+/*Index-main*/
 .services-list {
   list-style: none;
 }
@@ -75,23 +88,41 @@ a {
   font-weight: 700;
 }
 
+.button-green {
+  background-color: #00ca74;
+}
+
+.button-green:hover,
+.button-green:focus {
+  background-color: #00bc6c;
+}
+
+.button-yellow {
+  background-color: #efc84a;
+}
+
+.button-yellow:hover,
+.button-yellow:focus {
+  background-color: #eab534;
+}
+
 
 .description-items {
   list-style: none;
 }
 
 #description-caption {
-    font-size: 45px;
-    line-height: 54x;
-    font-weight: 700;
-  }
-  
+  font-size: 45px;
+  line-height: 54x;
+  font-weight: 700;
+}
+
 #description-list {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
 .pricniples-table caption {
   font-weight: 700;
@@ -105,6 +136,10 @@ a {
   font-weight: 700;
 }
 
+.principles-percentage sup {
+  font-size: 28px;
+}
+
 .pricniples-description td {
   line-height: 18px;
 }
@@ -114,6 +149,102 @@ a {
   border-bottom: 2px solid #eeeeee;
 }
 
+/*Catalog-main*/
+.filter fieldset {
+  border: none;
+}
+
+.filter legend {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.filter ul {
+  list-style: none;
+  line-height: 20px;
+}
+
+.filter li {
+  color: #283136;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.filter-input-radio:hover+label,
+.filter-input-radio:focus+label,
+.filter-input-checkbox:focus+label,
+.filter-input-checkbox:hover+label {
+  color: #283136;
+}
+
+.filter-input-radio:disabled+label,
+.filter-input-checkbox:disabled+label {
+  color: rgba(40, 49, 54, 0.302);
+}
+
+.filter-button {
+  background-color: #eeeeee;
+  text-transform: uppercase;
+	border: none;
+	line-height: 18px;
+	font-weight: 500;	
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: #dfdfdf;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  border: 1px solid #e5e5e5;
+}
+
+.catalog-item:hover {
+  box-shadow: 0px 6px 15px 0px rgba(0, 1, 1, 0.25);
+}
+
+.description-hover {
+  background-color: #eeeeee;
+}
+
+.description-hover h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+.description-hover p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  color: #000000;
+
+  background-color: #eeeeee;
+
+}
+
+.pagination-list a:hover,
+.pagination-list a:focus {
+  background-color: #dfdfdf;
+}
+
+/*Contact*/
 .name {
   font-size: 18px;
   line-height: 30px;
@@ -127,7 +258,11 @@ a {
 }
 
 
-
+/*Footer*/
+.footer-social ul {
+    list-style: none;
+  }
+   
 .footer-discount b {
   font-size: 36px;
   line-height: 43px;
@@ -143,6 +278,7 @@ a {
   background-color: #ffffff;
 }
 
+/*Contact pop-up*/
 .contact-us h2 {
   font-size: 45px;
   line-height: 54px;
