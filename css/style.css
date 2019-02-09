@@ -19,17 +19,14 @@ a {
 
 .button {
   font: inherit;
-
   text-align: center;
   color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
-
   background-color: #fb565a;
   border: none;
   font-size: 16px;
   line-height: 18px;
-
 }
 
 .button:hover,
@@ -106,14 +103,13 @@ a {
   background-color: #eab534;
 }
 
-
 .description-items {
   list-style: none;
 }
 
 #description-caption {
   font-size: 45px;
-  line-height: 54x;
+  line-height: 54px;
   font-weight: 700;
 }
 
@@ -181,7 +177,7 @@ a {
 
 .filter-input-radio:disabled+label,
 .filter-input-checkbox:disabled+label {
-  color: rgba(40, 49, 54, 0.302);
+  color: rgba(40, 49, 54, 0.3);
 }
 
 .filter-button {
@@ -218,7 +214,6 @@ a {
   line-height: 30px;
   font-weight: 700;
   text-transform: uppercase;
-
 }
 
 .description-hover p {
@@ -234,9 +229,7 @@ a {
 
 .pagination-item a {
   color: #000000;
-
   background-color: #eeeeee;
-
 }
 
 .pagination-list a:hover,
@@ -257,10 +250,9 @@ a {
   color: #666666;
 }
 
-
 /*Footer*/
 .footer-social ul {
-    list-style: none;
+  list-style: none;
   }
    
 .footer-discount b {
