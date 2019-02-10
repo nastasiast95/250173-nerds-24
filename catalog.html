@@ -26,8 +26,9 @@
         </div>
     </nav>
     <h1>Магазин готовых шаблонов</h1>
-  </header>
+  </header> 
   <main class="container">
+    <div class="catalog-columns">
     <aside class="filters">
       <h2 class="visually-hidden">Фильтры товаров</h2>
       <form class="filter" method="get" action="https://echo.htmlacademy.ru">
@@ -76,6 +77,7 @@
         <button type="submit" class="filter-button">Показать</button>
       </form>
     </aside>
+
     <section class="catalog">
       <h2 class="visually-hidden">Список товаров</h2>
       <ul class="catalog-list">
@@ -128,6 +130,7 @@
           </div>
         </li>
       </ul>
+      </div>
       <ul class="pagination-list">
         <li class="pagination-item pagination-item-current"><a>1</a></li>
         <li class="pagination-item"><a href="#">2</a></li>
@@ -163,18 +166,18 @@
     </form>
   </section>
   <footer class="main-footer">
-    <div class="footer-social">
-      <ul>
-        <li><a class="social-button social-button--vk" href="#">Мы в Вконтакте</a></li>
-        <li><a class="social-button social-button--fb" href="#">Мы в Фейсбук</a></li>
-        <li><a class="social-button social-button--inst" href="#">Мы в Инстаграм</a></li>
-      </ul>
-      <p class="footer-discount">
-        <b>Давайте дружить, это выгодно!</b><br>
-        <span>Скидка 10% для друзей из социальных сетей.</span>
-      </p>
-    </div>
-  </footer>
+      <div class="footer-social">
+        <ul class="social-list">
+          <li><a class="social-button social-button--vk" href="#">Мы в Вконтакте</a></li>
+          <li><a class="social-button social-button--fb" href="#">Мы в Фейсбуке</a></li>
+          <li><a class="social-button social-button--inst" href="#">Мы в Инстаграм</a></li>
+        </ul>
+        <p class="footer-discount">
+          <b>Давайте дружить, это выгодно!</b><br>
+          <span>Скидка 10% для друзей из социальных сетей.</span>
+        </p>
+      </div>
+    </footer>
 </body>
 
 </html>

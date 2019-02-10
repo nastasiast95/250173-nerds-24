@@ -51,6 +51,11 @@ a {
   font-size: 55px;
   line-height: 66px;
   color: #000000;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 110px;
+  padding-top: 77px;
+  text-align: center;
 }
 
 .main-navigation {
@@ -220,6 +225,10 @@ a {
   padding: 0 20px;
 }
 
+.filters {
+  width: 260px;
+}
+
 .filter fieldset {
   border: none;
 }
@@ -267,12 +276,29 @@ a {
   background-color: #dfdfdf;
 }
 
+.catalog {
+  width: 760px;
+}
+
+.catalog-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
 .catalog-list {
   list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .catalog-item {
   border: 1px solid #e5e5e5;
+  width: 360px;
+  margin-bottom:33px;
 }
 
 .catalog-item:hover {
@@ -281,6 +307,7 @@ a {
 
 .description-hover {
   background-color: #eeeeee;
+  text-align: center;
 }
 
 .description-hover h3 {
@@ -299,7 +326,9 @@ a {
 
 .pagination-list {
   list-style: none;
-}
+  padding: 0;
+  margin: 0;
+  }
 
 .pagination-item a {
   color: #000000;
