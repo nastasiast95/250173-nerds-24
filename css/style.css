@@ -35,16 +35,15 @@ a {
 }
 
 /*Header*/
+.container-header {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 1160px;
+}
 
 .main-header {
   padding-top: 50px;
   background-color: #eeeeee;
-  margin-bottom: 80px;
-}
-
-.main-header-logo {
-  margin-right: 200px;
-  margin-left: 140px;
 }
 
 .main-header h1 {
@@ -56,6 +55,11 @@ a {
   padding-bottom: 110px;
   padding-top: 77px;
   text-align: center;
+}
+
+.navigation {
+  margin-left: auto;
+  display: flex;
 }
 
 .main-navigation {
@@ -73,13 +77,14 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin-top: 25px;
-  justify-content: space-between;
-  width: 440px;
 }
 
-.cart {
-  margin-left: 280px;
-  margin-top: 25px;
+.site-navigation li {
+  margin-left: 48px;
+}
+
+.site-navigation li:last-child {
+  margin-left: 243px;
 }
 
 .main-navigation a {
@@ -100,6 +105,7 @@ a {
 
 /*Index-main*/
 .services {
+  padding-top: 80px;
   padding-bottom: 80px;
   border-bottom: 2px solid #eeeeee;
 }
@@ -122,7 +128,8 @@ a {
 }
 
 .services-item {
-  width: 300px;
+  width: 380px;
+  margin-left: 20px;
 }
 
 .button-green {
@@ -220,7 +227,7 @@ a {
 
 /*Catalog-main*/
 .container {
-  width: 1200px;
+  width: 1160px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -298,7 +305,7 @@ a {
 .catalog-item {
   border: 1px solid #e5e5e5;
   width: 360px;
-  margin-bottom:33px;
+  margin-bottom: 33px;
 }
 
 .catalog-item:hover {
@@ -328,7 +335,7 @@ a {
   list-style: none;
   padding: 0;
   margin: 0;
-  }
+}
 
 .pagination-item a {
   color: #000000;
@@ -354,6 +361,12 @@ a {
 }
 
 /*Footer*/
+.main-footer {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .footer-social {
   display: flex;
   padding-top: 70px;
