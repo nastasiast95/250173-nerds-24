@@ -24,7 +24,6 @@ close.addEventListener("click", function (evt) {
 
 form.addEventListener("submit", function (evt) {
   if (!mail.value || !name.value || !textarea) {
-    evt.preventDefault();
     popup.offsetWidth = popup.offsetWidth;
   } else {
     if (isStorageSupport) {
