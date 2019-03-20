@@ -170,7 +170,7 @@ margin-right: 200px;
   font-weight: 700;
   max-width: 600px;
   margin: 0;
-  margin-bottom: 27px;
+  margin-bottom: 25px;
 }
 
 .slider-item p {
@@ -799,12 +799,16 @@ margin-right: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 33px;
+}
+
+.catalog-list img {
+  display: block;
 }
 
 .catalog-item {
   width: 360px;
-  margin-bottom: 26px;
+  margin-bottom: 30px;
   position: relative;
   border-radius: 3px 3px 0 0;
 }
@@ -836,9 +840,9 @@ margin-right: 200px;
   background-color: #eeeeee;
   text-align: center;
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   width: 360px;
-  padding: 23px 0 31px 0;
+  padding: 25px 0 33px 0;
   opacity: 0;
 }
 
